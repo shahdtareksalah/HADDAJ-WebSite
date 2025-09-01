@@ -3,7 +3,7 @@ const hero = document.querySelector(".hero");
 
 // هنا حطي روابط الصور بتاعتك
 const images = [
-  "images/pexels-fauxels-3184419.jpg",
+  "images/annie-spratt-QckxruozjRg-unsplash.jpg",
   "images/pexels-olly-926390 copy.jpg",
   "images/pexels-nappy-936137.jpg"
 ];
@@ -28,7 +28,7 @@ AOS.init({
 // \\\\\\\\\\\
 window.addEventListener("scroll", function () {
   const navbar = document.querySelector(".navbar");
-  if (window.scrollY > 50) { // بعد ما تنزلي 50px
+  if (window.scrollY > this.screen.height-200) { // بعد ما تنزلي 50px
     navbar.classList.add("scrolled");
   } else {
     navbar.classList.remove("scrolled");
