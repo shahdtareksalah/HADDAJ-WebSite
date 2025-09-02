@@ -21,7 +21,7 @@ changeBackground();
 setInterval(changeBackground, 2000);
 // تفعيل مكتبة AOS
 AOS.init({
-  duration: 1200,   // مدة الانيميشن
+  duration: 1000,   // مدة الانيميشن
   once: false,      // لو true يحصل مرة واحدة بس
 });
 

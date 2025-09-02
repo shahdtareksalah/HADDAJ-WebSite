@@ -47,7 +47,7 @@ body.lang-en {
   margin: 0 0.5rem;
   transition: color 0.3s;
 }
-.navbar .nav-link:hover { color: #094734; }
+.navbar .nav-link:hover { color: #1b916d; }
 
 /* Dropdown */
 .navbar .dropdown-menu {
@@ -398,7 +398,7 @@ border-radius: 10%;
   text-align: center;
   font-size: 2.8rem;
   font-weight: 700;
-  color: white;
+  color: #cde307;
   margin-bottom: 3rem; /* مسافة بين العنوان والكروت */
 }
 .flip-card {
@@ -438,6 +438,7 @@ border-radius: 10%;
   align-items: center;
   justify-content: center;
 }
+
 
 .flip-card-front img {
   width: 80%;
@@ -612,7 +613,7 @@ border-radius: 10%;
 .contact-section p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #cde307;
+  color: white;
   margin-bottom: 2rem;
 }
 
