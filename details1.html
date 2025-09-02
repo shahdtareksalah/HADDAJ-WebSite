@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HADDAJ HUP</title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <!-- شعار الموقع -->
+    <a class="navbar-brand" href="index.html" id="nav-brand">
+      <img src="images/Asset 3@4x - Copy.png" style="height:50px; background-color:#0c5e40; border-radius:10%;">
+    </a>
+
+    <!-- زرار الهامبرغر للأجهزة الصغيرة -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- القوائم -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item" data-aos="zoom-in"><a class="nav-link" href="#" id="nav-paths">مسارات مسك</a></li>
+        <li class="nav-item" data-aos="zoom-in"><a class="nav-link" href="#" id="nav-programs">البرامج</a></li>
+        <li class="nav-item" data-aos="zoom-in"><a class="nav-link" href="#" id="nav-events">الفعاليات</a></li>
+        <li class="nav-item" data-aos="zoom-in"><a class="nav-link" href="#" id="nav-highlights">الإضاءات</a></li>
+      </ul>
+
+      <!-- أزرار Login و Language -->
+      <ul class="navbar-nav ms-auto align-items-center">
+  <li class="nav-item"><a class="nav-link" href="#" id="lang-toggle">English</a></li>
+  <li class="nav-item"><a class="btn btn-success" href="#" id="nav-login">تسجيل الدخول</a></li>
+</ul>
+    </div>
+  </div>
+</nav>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+<!-- Hero Section -->
+
+    <section class="hero-section d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- الصورة - تظهر من اليمين بشكل سلس -->
+      <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0" 
+           data-aos="fade-left" 
+           data-aos-duration="1200" 
+           data-aos-easing="ease-in-out">
+        <img src="images/Asset 1@4x.png" alt="Hero Image" class="img-fluid hero-img">
+      </div>
+
+      <!-- النصوص - تظهر من الشمال بشكل سلس -->
+      <div class="col-lg-6 text-center text-lg-end text-white" 
+           data-aos="fade-right" 
+           data-aos-duration="1200" 
+           data-aos-easing="ease-in-out" 
+           data-aos-delay="200">
+        <h1 class="fw-bold">
+          اكتشف، <span class="highlight">لتتمكن</span><br>
+          وتنطلق
+        </h1>
+        <p class="lead mt-3">
+          تساهم مسك المهارات في تمكين الشباب من اكتشاف اهتماماتهم، تطوير مهاراتهم، صقل قدراتهم، وتخطيط مستقبلهم الوظيفي
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- \\\\\ -->
+
+<section class="faq-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">الأسئلة الشائعة</h2>
+
+    <div class="accordion" id="faqAccordion">
+
+      <!-- سؤال 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            ما هو ديوان هداج؟
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+             data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            ديوان هداج منصة تنفيذية ضمن مشروع "هداج" تهدف إلى تمكين رواد الأعمال وتحديد التحديات بوضوح.
+          </div>
+        </div>
+      </div>
+
+      <!-- سؤال 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            ما هي مدة البرنامج؟
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+             data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            البرنامج يقدم مساراً تفاعلياً لتطوير المشاريع ويحفز التعاون بين الفرق.
+          </div>
+        </div>
+      </div>
+
+      <!-- سؤال 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            من هي الفئة المستهدفة؟
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+             data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            يستهدف رواد الأعمال والفرق الراغبة في تبادل المعرفة وحل المشكلات الواقعية.
+          </div>
+        </div>
+      </div>
+
+      <!-- سؤال 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            كيف يمكنني التسجيل في البرنامج؟
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+             data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            يمكنك التسجيل عبر الموقع الرسمي من خلال تعبئة نموذج التسجيل وإرسال بياناتك.
+          </div>
+        </div>
+      </div>
+
+      <!-- سؤال 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            هل هناك رسوم للمشاركة؟
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+             data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            المشاركة مجانية بالكامل، وتهدف لدعم وتمكين الشباب ورواد الأعمال.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- \\\\\\\\\\\\\\\\\\ -->
+<section class="goals-section">
+  <div class="container">
+    <h2 data-aos="fade-down" data-aos-duration="1000">أهداف الكورس</h2>
+    <div class="d-flex flex-wrap justify-content-center">
+
+      <div class="goal-card" data-aos="fade-right" data-aos-duration="800" data-aos-delay="0">
+        <i class="fas fa-lightbulb"></i>
+        <h4>تطوير المهارات</h4>
+      </div>
+
+      <div class="goal-card" data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
+        <i class="fas fa-code"></i>
+        <h4>تطبيق عملي</h4>
+      </div>
+
+      <div class="goal-card" data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
+        <i class="fas fa-users"></i>
+        <h4>العمل الجماعي</h4>
+      </div>
+
+      <div class="goal-card" data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">
+        <i class="fas fa-trophy"></i>
+        <h4>تحقيق الإنجازات</h4>
+      </div>
+
+      <div class="goal-card" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
+        <i class="fas fa-brain"></i>
+        <h4>التفكير النقدي</h4>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\ -->
+<section class="course-carousel-section">
+    <div class="container">
+      <h2>كورس 8 أيام</h2>
+
+      <div id="courseCarousel" class="carousel slide course-carousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- اليوم 1 -->
+          <div class="carousel-item active">
+            <div class="card">
+              <h3>اليوم 1</h3>
+              <p>مقدمة عن الكورس وأهداف اليوم الأول، مع شرح أساسي للمفاهيم المهمة.</p>
+            </div>
+          </div>
+
+          <!-- اليوم 2 -->
+          <div class="carousel-item">
+            <div class="card">
+              <h3>اليوم 2</h3>
+              <p>تفاصيل اليوم الثاني، تمارين عملية ونصائح لتطبيق المعلومات.</p>
+            </div>
+          </div>
+
+          <!-- اليوم 3 -->
+          <div class="carousel-item">
+            <div class="card">
+              <h3>اليوم 3</h3>
+              <p>اليوم الثالث يركز على التعمق في المفاهيم السابقة وشرح أمثلة تطبيقية.</p>
+            </div>
+          </div>
+
+          <!-- اليوم 4 -->
+          <div class="carousel-item">
+            <div class="card">
+              <h3>اليوم 4</h3>
+              <p>تطبيق عملي ومراجعة لأهم النقاط من الأيام السابقة.</p>
+            </div>
+          </div>
+
+          <!-- اليوم 5 -->
+          <div class="carousel-item">
+            <div class="card">
+              <h3>اليوم 5</h3>
+              <p>شرح موضوع جديد وتوضيح الطرق الأمثل لتطبيقه في مشاريع حقيقية.</p>
+            </div>
+          </div>
+
+          <!-- اليوم 6 -->
+          <div class="carousel-item">
+            <div class="card">
+              <h3>اليوم 6</h3>
+              <p>تمارين متقدمة وتحديات لتقوية المهارات المكتسبة.</p>
+            </div>
+          </div>
+
+          <!-- اليوم 7 -->
+          <div class="carousel-item">
+            <div class="card">
+              <h3>اليوم 7</h3>
+              <p>إتمام المشاريع الصغيرة ومراجعة الأخطاء الشائعة وكيفية تجنبها.</p>
+            </div>
+          </div>
+
+          <!-- اليوم 8 -->
+          <div class="carousel-item">
+            <div class="card">
+              <h3>اليوم 8</h3>
+              <p>الخاتمة، مراجعة شاملة للكورس، نصائح للتطبيق المستقبلي، وشهادات الحضور.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- أزرار التنقل -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#courseCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#courseCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<section class="expanding-cards py-5">
+  <div class="container">
+    <div class="cards-wrapper d-flex">
+      <div class="card-item">
+        <img src="https://picsum.photos/600/400?random=1" alt="صورة 1">
+      </div>
+      <div class="card-item">
+        <img src="https://picsum.photos/600/400?random=2" alt="صورة 2">
+      </div>
+      <div class="card-item">
+        <img src="https://picsum.photos/600/400?random=3" alt="صورة 3">
+      </div>
+      <div class="card-item">
+        <img src="https://picsum.photos/600/400?random=4" alt="صورة 4">
+      </div>
+      <div class="card-item">
+        <img src="https://picsum.photos/600/400?random=5" alt="صورة 5">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- \\\\\\\\\\\\\\\\\\ -->
+ <footer class="footer-section">
+  <div class="container">
+
+    <!-- Top Row -->
+    <div class="row mb-4">
+      
+      <!-- Social -->
+      <section class="col-lg-4 mb-4 mb-lg-0 social-contact" data-aos="fade-up">
+        <div class="social-icons mb-4">
+          <a href="#" class="social-icon" data-aos="fade-up" data-aos-delay="100"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon" data-aos="fade-up" data-aos-delay="200"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="social-icon" data-aos="fade-up" data-aos-delay="300"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-icon" data-aos="fade-up" data-aos-delay="400"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon" data-aos="fade-up" data-aos-delay="500"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p class="contact-text">صندوق بريد 10076 الرياض 11433 المملكة العربية السعودية</p>
+        <p class="contact-email">hubsupport@misk.org.sa</p>
+      </section>
+
+      <!-- Links -->
+      <section class="col-lg-2 col-md-4 mb-4 mb-lg-0 text-lg-end"
+               data-aos="fade-up" data-aos-delay="200">
+        <h5 class="footer-title">تواصل معنا</h5>
+        <ul class="footer-links">
+          <li><a href="#">هل لديك أي أسئلة</a></li>
+          <li><a href="#">نود طرحها؟</a></li>
+        </ul>
+        <button class="btn btn-outline-light btn-sm mt-3">تواصل معنا</button>
+      </section>
+
+      <section class="col-lg-3 col-md-4 mb-4 mb-lg-0 text-lg-end"
+               data-aos="fade-up" data-aos-delay="300">
+        <h5 class="footer-title">مجتمعاتنا</h5>
+        <ul class="footer-links">
+          <li><a href="#">مجلس أثر الشباب</a></li>
+          <li><a href="#">المجلس السعودي للقادة</a></li>
+        </ul>
+      </section>
+
+      <section class="col-lg-3 col-md-4 mb-4 mb-lg-0 text-lg-end"
+               data-aos="fade-up" data-aos-delay="400">
+        <h5 class="footer-title">من نحن</h5>
+        <ul class="footer-links">
+          <li><a href="#">عن مكان مسك</a></li>
+          <li><a href="#">عن مؤسسة مسك</a></li>
+          <li><a href="#">الأسئلة الشائعة</a></li>
+        </ul>
+      </section>
+
+    </div>
+
+    <!-- Bottom Row -->
+    <div class="footer-bottom row align-items-center"
+         data-aos="fade-in" data-aos-delay="500">
+      <div class="col-md-6 mb-2 mb-md-0 footer-policies">
+        <a href="#" class="policy-link">سياسة الخصوصية</a>
+        <a href="#" class="policy-link">سياسة الاستخدام المعقول والآمن</a>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <p class="copyright-text">
+          حقوق الطبع والنشر تعود لـ"مؤسسة مسك" © 2023. كافة الحقوق محفوظة
+        </p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

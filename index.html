@@ -194,9 +194,10 @@
               <div class="card-header text-center fw-bold">ديوان هداج عباة عن؟</div>
             </div>
             <!-- الوجه الخلفي -->
-            <div class="flip-card-back">
-              <button class="details-btn">اعرف التفاصيل</button>
-            </div>
+           <div class="flip-card-back">
+  <a href="details1.html" class="details-btn">اعرف التفاصيل</a>
+</div>
+
           </div>
         </div>
         <p class="card-summary mt-2">
@@ -215,9 +216,10 @@
               <img src="images/Asset 2@4x.png" class="card-img-top">
               <div class="card-header text-center fw-bold">ما هي مدة البرنامج؟</div>
             </div>
-            <div class="flip-card-back">
-              <button class="details-btn">اعرف التفاصيل</button>
-            </div>
+           <div class="flip-card-back">
+  <a href="details2.html" class="details-btn">اعرف التفاصيل</a>
+</div>
+
           </div>
         </div>
         <p class="card-summary mt-2">
@@ -236,9 +238,10 @@
               <img src="images/Asset 3@4x.png" class="card-img-top">
               <div class="card-header text-center fw-bold">من الفئة المستهدفة؟</div>
             </div>
-            <div class="flip-card-back">
-              <button class="details-btn">اعرف التفاصيل</button>
-            </div>
+           <div class="flip-card-back">
+  <a href="details3.html" class="details-btn">اعرف التفاصيل</a>
+</div>
+
           </div>
         </div>
         <p class="card-summary mt-2">
@@ -311,8 +314,7 @@
         <h1 class="display-3 fw-bold mb-4"
             data-aos="fade-up"
             data-aos-duration="1000">
-          هل لديك أفكار؟
-        </h1>
+          الرعاة الرسمين        </h1>
         
         <p class="lead mb-4 fs-5"
            data-aos="fade-up"
@@ -324,61 +326,71 @@
         </p>
         
         <button class="btn btn-primary btn-lg px-4 py-3 fw-semibold"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="200">
-          شاركنا أفكارك
-        </button>
+        data-bs-toggle="modal" data-bs-target="#sponsorModal"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="200">
+  انضموا الينا
+</button>
       </div>
 
-      <!-- أيقونة اللمبة -->
       <div class="col-lg-4 d-none d-lg-flex justify-content-center align-items-center">
         <div class="lightbulb-container"
              data-aos="zoom-in"
              data-aos-duration="1200"
              data-aos-delay="400">
-          <div class="lightbulb-icon">💡</div>
-          <div class="lightbulb-icon-small">💡</div>
+<div class="sponsor-icon"><i class="fas fa-handshake"></i></div>
+<div class="sponsor-icon-small"><i class="fas fa-building"></i></div>
+
         </div>
       </div>
 
     </div>
   </div>
 </section>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+ <div class="modal fade" id="sponsorModal" tabindex="-1" aria-labelledby="sponsorModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title" id="sponsorModalLabel">تسجيل الرعاة الرسميين</h5>
+      </div>
 
-
-<!-- Newsletter Section -->
-<section class="newsletter-section">
-  <div class="container">
-    <div class="newsletter-card p-5 rounded-4 shadow-lg mx-auto"
-         data-aos="fade-up" data-aos-duration="1000">
-      <div class="row align-items-center">
-        
-        <div class="col-lg-6 text-center text-lg-end mb-4 mb-lg-0">
-          <h2 class="h3 fw-bold text-dark mb-3"
-              data-aos="fade-right" data-aos-duration="1000">
-            تحديثات مسبك
-          </h2>
-          <p class="text-dark-emphasis mb-0"
-             data-aos="fade-right" data-aos-delay="100">
-            اشترك في نشرتنا الاخبارية واحصل على
-            <br />
-            مستجدات البرامج والفعاليات
-          </p>
-        </div>
-
-        <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
-          <div class="input-group input-group-lg">
-            <input type="email" class="form-control" placeholder="البريد الإلكتروني" />
-            <button class="btn btn-primary px-4" type="button">
-              <span class="ms-2">✉️</span> الاشتراك
-            </button>
+      <div class="modal-body">
+        <form id="sponsorForm">
+          <div class="mb-3">
+            <label for="companyName" class="form-label">اسم الشركة</label>
+            <input type="text" class="form-control" id="companyName" required>
           </div>
-        </div>
+          <div class="mb-3">
+            <label for="contactPerson" class="form-label">اسم الشخص المسؤول</label>
+            <input type="text" class="form-control" id="contactPerson" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">البريد الإلكتروني</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">رقم الهاتف</label>
+            <input type="tel" class="form-control" id="phone" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">ملاحظات إضافية</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+        </form>
       </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
+        <button type="submit" class="btn btn-primary" form="sponsorForm">إرسال</button>
+      </div>
+
     </div>
   </div>
-</section>
+</div>
+<!-- \\\\\\\\\\\\\\\\\\\\\ -->
 
 
 <!-- Footer -->
@@ -432,7 +444,6 @@
       </section>
 
     </div>
-
     <!-- Bottom Row -->
     <div class="footer-bottom row align-items-center"
          data-aos="fade-in" data-aos-delay="500">

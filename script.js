@@ -20,10 +20,7 @@ changeBackground();
 // يغير كل 5 ثواني
 setInterval(changeBackground, 2000);
 // تفعيل مكتبة AOS
-AOS.init({
-  duration: 1000,   // مدة الانيميشن
-  once: false,      // لو true يحصل مرة واحدة بس
-});
+
 
 // \\\\\\\\\\\
 window.addEventListener("scroll", function () {
@@ -33,5 +30,10 @@ window.addEventListener("scroll", function () {
   } else {
     navbar.classList.remove("scrolled");
   }
+});
+
+AOS.init({
+  duration: 1000,   // مدة الانيميشن
+  once: false,      // لو true يحصل مرة واحدة بس
 });
 
