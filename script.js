@@ -5,7 +5,7 @@ const hero = document.querySelector(".hero");
 const images = [
   "images/annie-spratt-QckxruozjRg-unsplash.jpg",
   "images/pexels-olly-926390 copy.jpg",
-  "images/pexels-nappy-936137.jpg"
+  "images/pexels-linkedin-2182971.jpg"
 ];
 
 let currentImage = 0;
