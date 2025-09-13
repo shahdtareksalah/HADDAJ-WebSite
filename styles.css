@@ -31,7 +31,6 @@ body.lang-en {
 .navbar .navbar-brand img {
   height: 50px;
   border-radius: 10%;
-  background-color: #094734;
 }
 
 /* القوائم */
@@ -131,7 +130,7 @@ body.lang-en {
 }
 #hero-title{
   color: 
- #cde307;
+ #fafdf9;
   /* background-color:#F6E9D9 ; */
 border-radius: 10%;
 width: fit-content;
@@ -188,26 +187,32 @@ border-radius: 10%;
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\ */
 .about-section {
-  background-color: #094734;
+  background-color: #F6E9D9; 
+  background-image: url("images/WhatsApp Image 2025-09-13 at 14.04.54_58e7588b.jpg");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 250px; 
   padding: 60px 0;
 }
+
+
 
 .main-title {
   font-size: 2rem;
   font-weight: bold;
-  color: #cde307;
+  color: #823848;
   margin-bottom: 1rem;
 }
 
 .about-text {
   font-size: 1.1rem; /* كبرت النص شوية */
   line-height: 1.8;
-  color: white;
+  color:#823848;
 }
 
 /* الصورة */
 .about-section img {
-  border-radius: 15px;
+  border-radius: 20%;
   max-width: 100%;
   height: auto;
   display: block;
@@ -273,7 +278,7 @@ border-radius: 10%;
 .choose-us-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #2c3e50;
+  color: #823848;
   text-align: right;
   margin-bottom: 2rem;
   position: relative;
@@ -386,19 +391,23 @@ border-radius: 10%;
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 .flip-cards-section {
-  min-height: 100vh; /* ارتفاع الشاشة كامل */
+  position: relative;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* يبدأ من الأعلى */
+  justify-content: flex-start;
   align-items: center;
   padding: 4rem 1rem;
-  background-color: #094734; 
+
+  background: linear-gradient(rgba(226, 179, 132, 0.336), rgba(1, 73, 52, 0.9)),
+              url("images/Screenshot (174).png") center/cover no-repeat;
 }
+
 .flip-cards-section h1 {
   text-align: center;
   font-size: 2.8rem;
   font-weight: 700;
-  color: #cde307;
+  color:#5a2c3c;
   margin-bottom: 3rem; /* مسافة بين العنوان والكروت */
 }
 .flip-card {
@@ -556,6 +565,13 @@ border-radius: 10%;
   flex: 1 1 30%;
   text-align: center;
 }
+.cta-logo {
+  max-width: 160px;
+  height: auto;
+  margin: 0 auto 20px; 
+  display: block;
+}
+
 
 .cta-title { font-size: 56px; font-weight: 700; margin-bottom: 15px; }
 .cta-subtitle { font-size: 24px; margin-bottom: 30px; color: #7F573C; }

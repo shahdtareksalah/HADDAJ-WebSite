@@ -3,7 +3,7 @@ const hero = document.querySelector(".hero");
 
 // هنا حطي روابط الصور بتاعتك
 const images = [
-  "images/annie-spratt-QckxruozjRg-unsplash.jpg",
+  "images/Generated Image September 13, 2025 - 12_19PM.png",
   "images/pexels-olly-926390 copy.jpg",
   "images/pexels-linkedin-2182971.jpg"
 ];
@@ -25,7 +25,7 @@ setInterval(changeBackground, 2000);
 // \\\\\\\\\\\
 window.addEventListener("scroll", function () {
   const navbar = document.querySelector(".navbar");
-  if (window.scrollY > this.screen.height-200) { // بعد ما تنزلي 50px
+  if (window.scrollY > this.screen.height-200) { 
     navbar.classList.add("scrolled");
   } else {
     navbar.classList.remove("scrolled");
@@ -33,7 +33,7 @@ window.addEventListener("scroll", function () {
 });
 
 AOS.init({
-  duration: 1000,   // مدة الانيميشن
-  once: false,      // لو true يحصل مرة واحدة بس
+  duration: 1000, 
+  once: false,      
 });
 

@@ -15,7 +15,7 @@ body.lang-en {
   top: 0;
   left: 0;
   width: 100%;
-    background-color: #094734; 
+  background-color: #094734;
   box-shadow: none;
   transition: background-color 0.3s ease, box-shadow 0.3s ;
   z-index: 1000;
@@ -33,7 +33,6 @@ body.lang-en {
 .navbar .navbar-brand img {
   height: 50px;
   border-radius: 10%;
-  background-color: #094734;
 }
 
 /* القوائم */
@@ -116,7 +115,9 @@ body.lang-en {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; /* يسمح للعناصر بالانخفاض أسفل بعض عند الشاشة الصغيرة */
+  flex-wrap: wrap; 
+    background: linear-gradient(rgba(9, 71, 52, 0.6), rgba(9, 71, 52, 0.6)),
+              url("images/Generated Image September 13, 2025 - 11_12AM.png") center/cover no-repeat;
 }
 
 .hero-img {
@@ -206,7 +207,8 @@ body.lang-en {
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 .course-carousel-section {
-      background: #094734;
+      background: linear-gradient(rgba(9, 71, 52, 0.6), rgba(9, 71, 52, 0.6)),
+              url("images/Generated Image September 13, 2025 - 11_25AM.png") center/cover no-repeat;
       padding: 80px 20px;
     }
 
@@ -260,7 +262,7 @@ body.lang-en {
     }
 
     .course-carousel .card p {
-      color: #555;
+      color: white;
             font-weight: 500;
       line-height: 1.6;
     }
