@@ -443,7 +443,7 @@ border-radius: 10%;
 }
 
 .flip-card-front {
-  background: #823848;
+  background: #cbb191;
   color: white;
   display: flex;
   flex-direction: column;
@@ -759,7 +759,50 @@ border-radius: 10%;
   transform: scale(1.05);
   opacity: 0.85;
 }
-
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.articles-section {
+padding: 3rem 1rem;
+background: #fff;
+}
+.articles-section .section-title {
+font-weight: 700;
+margin-bottom: 1.5rem;
+color: #823848;
+}
+.article-card {
+border: 0;
+background: #F6E9D9;
+color:black ;
+box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+transition: transform .18s ease, box-shadow .18s ease;
+height: 100%;
+}
+.article-card:hover{
+transform: translateY(-6px);
+box-shadow: 0 12px 30px rgba(0,0,0,0.10);
+}
+.article-thumb {
+width: 200px;
+height: 150px;
+object-fit: cover;
+margin-bottom: 10px;
+border-radius: .5rem;
+flex-shrink: 0;
+margin-left: .75rem;
+}
+.card-body {
+padding: 1rem 1rem 1rem 0.5rem;
+}
+.card-text {
+margin: 0;
+color:black ;
+font-size: 0.95rem;
+}
+.read-more {
+font-weight: 600;
+text-decoration: none;
+color: #823848;
+}
 
 
 /* \\\\\\\\\\\\\\\\ */
