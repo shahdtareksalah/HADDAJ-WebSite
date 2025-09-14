@@ -3,9 +3,9 @@ const hero = document.querySelector(".hero");
 
 // هنا حطي روابط الصور بتاعتك
 const images = [
-  "images/Generated Image September 13, 2025 - 12_19PM.png",
-  "images/pexels-olly-926390 copy.jpg",
-  "images/pexels-linkedin-2182971.jpg"
+  "images/Screenshot (173).png",
+    "images/Generated Image September 13, 2025 - 12_00PM.png",
+    "images/pexels-fauxels-3184639.jpg"
 ];
 
 let currentImage = 0;

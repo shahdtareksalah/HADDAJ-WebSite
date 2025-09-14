@@ -121,7 +121,7 @@ body.lang-en {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(4, 17, 12, 0.6); /* طبقة شفافة فوق الصور */
+  background: rgba(4, 17, 12, 0.3); /* طبقة شفافة فوق الصور */
 }
 
 .hero .container {
@@ -767,13 +767,13 @@ background: #fff;
 .articles-section .section-title {
 font-weight: 700;
 margin-bottom: 1.5rem;
-color: #823848;
+color: #7F573C;
 }
 .article-card {
 border: 0;
-background: #F6E9D9;
-color:black ;
-box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+background: #fff;
+color:#7F573C ;
+box-shadow: 0 6px 15px #7F573C;
 transition: transform .18s ease, box-shadow .18s ease;
 height: 100%;
 }
